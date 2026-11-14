@@ -21,13 +21,19 @@ export default defineConfig({
       },
       lastUpdated: true,
       sidebar: [
-        { label: 'Початок', items: [{ label: 'Про проєкт', slug: 'about' }] },
+        {
+          label: 'Початок',
+          items: [{ label: 'Про проєкт', slug: 'about' }],
+        },
         {
           label: 'Кардіологія',
-          autogenerate: { directory: 'kardiolohiia' },
+          items: [{ autogenerate: { directory: 'kardiolohiia' } }],
         },
-        // Додавайте нові розділи так:
-        // { label: 'Ендокринологія', autogenerate: { directory: 'endokrynolohiia' } },
+        // Новий розділ додавайте так:
+        // {
+        //   label: 'Ендокринологія',
+        //   items: [{ autogenerate: { directory: 'endokrynolohiia' } }],
+        // },
       ],
     }),
   ],
