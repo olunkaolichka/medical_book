@@ -14,10 +14,10 @@ export default defineConfig({
         root: { label: 'Українська', lang: 'uk' },
       },
       social: [
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/YOUR_GITHUB_USERNAME/medical_book' },
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/olunkaolichka/medical_book' },
       ],
       editLink: {
-        baseUrl: 'https://github.com/YOUR_GITHUB_USERNAME/medical_book/edit/main/',
+        baseUrl: 'https://github.com/olunkaolichka/medical_book/edit/main/',
       },
       lastUpdated: true,
       sidebar: [
