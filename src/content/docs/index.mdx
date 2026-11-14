@@ -1,0 +1,21 @@
+---
+title: Медична книга
+description: Колекція клінічних настанов і статей з медицини українською мовою.
+template: splash
+hero:
+  tagline: Структурована база клінічних настанов, протоколів і статей.
+  actions:
+    - text: Перша стаття
+      link: /medical_book/kardiolohiia/dyslipidemia/
+      icon: right-arrow
+    - text: Про проєкт
+      link: /medical_book/about/
+      variant: minimal
+---
+
+import { CardGrid, Card } from '@astrojs/starlight/components';
+
+<CardGrid>
+  <Card title="Кардіологія" icon="heart">Настанови з профілактики та лікування серцево-судинних захворювань.</Card>
+  <Card title="Пошук" icon="magnifier">Миттєвий пошук по всіх матеріалах.</Card>
+</CardGrid>
