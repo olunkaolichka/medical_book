@@ -2,9 +2,8 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-// TODO: замініть YOUR_GITHUB_USERNAME на ваш логін GitHub
 export default defineConfig({
-  site: 'https://YOUR_GITHUB_USERNAME.github.io',
+  site: 'https://olunkaolichka.github.io',
   base: '/medical_book',
   integrations: [
     starlight({
